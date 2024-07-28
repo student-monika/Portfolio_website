@@ -1,0 +1,149 @@
+/* #0295c3
+#1a2529 */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #0295c3;
+}
+
+.navbar {
+    background: #1a2529;
+    color: #0295c3;
+    padding: 10px 0;
+    position: sticky;
+    width: 100%;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+}
+
+.logo a {
+    color: white;
+    text-decoration: none;
+    font-size: 34px;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-left: 20px;
+}
+
+.nav-links a {
+    color: #0295c3;
+    text-decoration: none;
+    font-weight: 600;
+    padding: 5px 10px;
+    transition: background 0.3s, color 0.3s;
+}
+
+.nav-links a:hover {
+    background: #fff;
+    color: #333;
+    border-radius: 5px;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin: 40px 0;
+}
+
+.img{
+    width: 30vw;
+    height: 66vh;
+}
+.img-div{
+    padding-left: 20px;
+
+}
+.home{
+    width: 95vw;
+    height: 66vh;
+    display: flex;
+    justify-content: space-between;
+}
+.home-h1{
+    font-size: 60px;
+}
+.text-div{
+    padding-left: 20px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+.home-p{
+    font-size: 35px;
+    font-style: italic;
+    font-weight: 500;
+
+}
+.skills{
+    background-color: #1a2529;
+    width: 95vw;
+    height: 95vh;
+    align-items: center;
+    border:2px solid #1a2529;
+    border-radius: 15px;
+}
+.skills-top{
+    height: 40vh;
+    margin: 10px;
+    padding: 10px;
+}
+.card-container{
+    border: #1a2529;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+.card{
+    border: 2px solid #0295c3;
+    border-radius: 5px;
+    height: 282px;
+    padding: 15px;
+    margin: 20px;
+}
+.card-h1{
+    color: #0295c3;
+    font-size: 30px;
+    font-weight: 600;
+}
+.card-p{
+    color: white;
+    font-size: 30px;
+    font-weight: 300;
+}
+.contact{
+    width: 100vw;
+    height: 30vh;
+    background-color: white;
+    text-align: center;
+    color: #1a2529;
+}
+.contact-h1{
+    font-size: 30px;
+    margin: 20px;
+}
+.contact-p{
+    font-size: 15px;
+    margin: 30px;
+}
